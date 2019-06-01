@@ -111,7 +111,47 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1{
+background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}  
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}    
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}       
+.top-content2 {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}            
+.top-content2 .text-container1 {
+    padding-right: 4%;
+}  
+.top-content2 .text-container2 {
+    padding-right: 0;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +183,31 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+header nav {
+    margin-top: 40px;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black
+}
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+header .logo {
+    margin: 28px 0 0 91px;
+}
+.main-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
